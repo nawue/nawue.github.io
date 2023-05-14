@@ -1,9 +1,10 @@
 <div style="clear: both;">
     <div style="float: left; margin-right 1em; padding-right: 10px;">
-      <img src="{{ include.image_path }}" alt="" style="width:200px;height:200px;">
+      <img src="{{ include.image_path }}" alt="" style="width:150px;height:150px;">
     </div>
     <div>
-      <h2>{{ include.title }}</h2>
+      
+      <h3> <a href="{{ include.link }}">{{ include.title }}</a> </h3>
       {{ include.description | markdownify }}
     </div>
   </div>
